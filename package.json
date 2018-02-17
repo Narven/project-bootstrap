@@ -1,11 +1,25 @@
 {
-  "name": "taxk-api",
+  "name": "project-bootstrap",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "./src/index.ts",
   "license": "MIT",
+  "scripts": {
+    "start": "rm -rf ./dist && webpack --colors --progress"
+  },
   "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/webpack-env": "^1.13.5",
     "start-server-webpack-plugin": "^2.2.1",
     "ts-loader": "^3.5.0",
-    "webpack-node-externals": "^1.6.0"
-  }
+    "webpack-node-externals": "^1.6.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "typescript"
+  ]
 }
