@@ -8,7 +8,7 @@ module.exports = {
     './src/index.ts'
   ],
   externals: [nodeExternals()],
-  watch: true,
+  watch: false,
   target: 'node',
   output: {
     path: path.join(__dirname, 'dist'),

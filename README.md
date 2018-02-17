@@ -1,3 +1,7 @@
-# readme
+# PROJECT-BOOTSTRAP
 
-This is a base raw project
+This is just a simple typescript project bootstrap.
+
+## Run
+
+`yarn run start`
