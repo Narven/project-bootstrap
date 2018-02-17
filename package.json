@@ -1,0 +1,11 @@
+{
+  "name": "taxk-api",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "start-server-webpack-plugin": "^2.2.1",
+    "ts-loader": "^3.5.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
