@@ -2,12 +2,22 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "noImplicitAny": false,
-    "noImplicitThis": false,
+    "noEmitOnError": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
     "sourceMap": true,
     "outDir": "dist",
     "allowJs": false
   },
+  "lib": [
+    "dom",
+    "es2017",
+    "dom.iterable",
+    "scripthost"
+  ],
   "exclude": [
     "node_modules",
     "dist",

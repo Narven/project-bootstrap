@@ -1,19 +1,28 @@
 {
   "name": "project-bootstrap",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./src/index.ts",
+  "description": "Typescript Project Bootstrap",
   "license": "MIT",
+  "author": "Pedro Luz <pedromsluz@gmail.com> (https://pedromsluz.co.uk)",
   "scripts": {
-    "start": "rm -rf ./dist && webpack --colors --progress"
+    "start": "yarn run clean && webpack --colors --progress --env",
+    "clean": "rimraf dist"
   },
   "devDependencies": {
     "@types/node": "^9.4.6",
     "@types/webpack-env": "^1.13.5",
+    "jest": "^22.3.0",
+    "rimraf": "^2.6.2",
     "start-server-webpack-plugin": "^2.2.1",
     "ts-loader": "^3.5.0",
-    "webpack-node-externals": "^1.6.0",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.5.3",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "tsutils": "^2.21.1",
     "typescript": "^2.7.1",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-node-externals": "^1.6.0"
   },
   "repository": {
     "type": "git",
